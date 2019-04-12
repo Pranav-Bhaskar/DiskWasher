@@ -45,13 +45,20 @@ class Action{
 	public boolean getShread(){
 		return this.shread;
 	}
+	
+	public int getShreadFileNum(){
+		return this.shreadFileNum;
+	}
+
+	public String[] getShreadFiles(){
+		return this.shreadFiles;
+	}
 
 	Action(){
 		this.parsesZeros = 3;
 		this.parsesRand = false;
 		this.error = false;
 		this.shread = false;
-		this.shreadFiles = null;
 		this.shreadFileNum = 0;
 	}
 }
